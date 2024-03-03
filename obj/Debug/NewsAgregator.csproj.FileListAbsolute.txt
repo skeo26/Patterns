@@ -1,0 +1,8 @@
+D:\программы c#\NewsAgregator\bin\Debug\NewsAgregator.exe.config
+D:\программы c#\NewsAgregator\bin\Debug\NewsAgregator.exe
+D:\программы c#\NewsAgregator\bin\Debug\NewsAgregator.pdb
+D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.AssemblyReference.cache
+D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.SuggestedBindingRedirects.cache
+D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.CoreCompileInputs.cache
+D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.exe
+D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.pdb
