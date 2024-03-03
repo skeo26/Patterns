@@ -1,4 +1,5 @@
-﻿using NewsAgregator.Patterns.Strategy;
+﻿using NewsAgregator.Patterns.AbstractFact;
+using NewsAgregator.Patterns.Strategy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,11 @@ namespace NewsAgregator
         {
             Console.WriteLine("Приветствуем Вас в новостном агрегаторе!\n");
 
-            NewsGenerator newsGenerator = new NewsGenerator();
-            NewsDisplay newsDisplay = new NewsDisplay();
+            NewsFactory factory = new NewsAgregatorFactory();
+
+            NewsGenerator newsGenerator = factory.CreateNewsGenerator();
+            NewsDisplay newsDisplay = factory.GetNewsDisplay();
+
 
             Console.WriteLine("Выберите тему новостей:");
 

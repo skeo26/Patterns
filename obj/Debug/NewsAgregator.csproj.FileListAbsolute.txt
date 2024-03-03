@@ -6,3 +6,11 @@ D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.SuggestedB
 D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.CoreCompileInputs.cache
 D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.exe
 D:\программы c#\NewsAgregator\obj\Debug\NewsAgregator.pdb
+D:\c#\NewsAgregator\bin\Debug\NewsAgregator.exe.config
+D:\c#\NewsAgregator\bin\Debug\NewsAgregator.exe
+D:\c#\NewsAgregator\bin\Debug\NewsAgregator.pdb
+D:\c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.AssemblyReference.cache
+D:\c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.SuggestedBindingRedirects.cache
+D:\c#\NewsAgregator\obj\Debug\NewsAgregator.csproj.CoreCompileInputs.cache
+D:\c#\NewsAgregator\obj\Debug\NewsAgregator.exe
+D:\c#\NewsAgregator\obj\Debug\NewsAgregator.pdb

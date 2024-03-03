@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patterns\AbstractFact\ConcreteNewsDisplay.cs" />
+    <Compile Include="Patterns\AbstractFact\ConcreteNewsGenerator.cs" />
+    <Compile Include="Patterns\AbstractFact\NewsAgregatorFactory.cs" />
+    <Compile Include="Patterns\AbstractFact\NewsFactory.cs" />
+    <Compile Include="Patterns\Decorator\LowerNewsDecorator.cs" />
+    <Compile Include="Patterns\Decorator\NewsDisplayDecorator.cs" />
+    <Compile Include="Patterns\Decorator\UpperNewsDisplay.cs" />
     <Compile Include="Patterns\StrategyAndSingleton\AlphabeticalSort.cs" />
     <Compile Include="Patterns\StrategyAndSingleton\ISort.cs" />
     <Compile Include="Patterns\StrategyAndSingleton\LengthSort.cs" />

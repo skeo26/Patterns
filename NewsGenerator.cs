@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace NewsAgregator
 {
-    public class NewsGenerator
+    public abstract class NewsGenerator
     {
-        private readonly Dictionary<string, List<string>> newsOnTheTopic;
+        protected readonly Dictionary<string, List<string>> newsOnTheTopic;
 
         public NewsGenerator()
         {
@@ -21,17 +21,22 @@ namespace NewsAgregator
                 };
 
         }
-        public List<string> GenerateNews(string topic)
-        {
-            if (newsOnTheTopic.ContainsKey(topic.ToLower()))
-                return newsOnTheTopic[topic.ToLower()];
-            else
-                return new List<string> { "Новостей на данную тему пока нет" };
-        }
+        public abstract List<string> GenerateNews(string topic);
+        public abstract List<string> GetAvailableTopics();
 
-        public List<string> GetAvailableTopics()
-        {
-            return new List<string>(newsOnTheTopic.Keys);
-        }
+
+
+        //public List<string> GenerateNews(string topic)
+        //{
+        //    if (newsOnTheTopic.ContainsKey(topic.ToLower()))
+        //        return newsOnTheTopic[topic.ToLower()];
+        //    else
+        //        return new List<string> { "Новостей на данную тему пока нет" };
+        //}
+
+        //public List<string> GetAvailableTopics()
+        //{
+        //    return new List<string>(newsOnTheTopic.Keys);
+        //}
     }
 }
